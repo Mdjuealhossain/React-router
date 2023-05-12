@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .jueal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center
+    }
+
+    .jueal>div {
+        text-align: start;
+    }
+</style>
+
+<body>
+    <div id="sms">
+
+    </div>
+    <div id="jpn">
+
+
+    </div>
+    <script>
+        window.onload = function creatpage() {
+            const getd = document.getElementById("sms")
+            const creatpd = document.createElement("h2")
+            const addgetd = getd.appendChild(creatpd)
+            const innadd = addgetd.innerHTML = "This is my first web page"
+            const creath5 = document.createElement("h4")
+            const addh5 = getd.appendChild(creath5).innerHTML = "Home >> page"
+            const adddiv2 = document.getElementById("jpn").className = "jueal"
+            const getDiv = document.getElementById("jpn")
+            const creatdiv = document.createElement("div")
+            const adddiv = getDiv.appendChild(creatdiv)
+            const creatp = document.createElement("img")
+            const addp = adddiv.appendChild(creatp)
+            addp.setAttribute("src", "https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg")
+            addp.setAttribute("width", "400")
+            addp.setAttribute("height", "300")
+            const creath4 = document.createElement("h5")
+            const addh4 = adddiv.appendChild(creath4).innerHTML = "IMAGE ACADEMY FIRST"
+            const allp = ["This senarry is very beauttiful", "Many many people visite here",]
+            for (a = 0; a < allp.length; a++) {
+                const creatp = document.createElement("p")
+                const add2 = adddiv.appendChild(creatp)
+                const inner3 = add2.innerHTML = allp[a]
+            }
+            const creatdiv2 = document.createElement("div")
+            const addiv2 = getDiv.appendChild(creatdiv2)
+            const creatimg2 = document.createElement("img")
+            const add3 = addiv2.appendChild(creatimg2)
+            add3.setAttribute("src", "https://staticg.sportskeeda.com/wp-content/uploads/2013/06/stock-1745820-1024x682.jpg")
+            add3.setAttribute("width", "400")
+            add3.setAttribute("height", "300")
+            add3.setAttribute("style", "align-self:flex-start")
+            const creath2 = document.createElement("h3")
+            const addhh3 = addiv2.appendChild(creath2).innerHTML = "U-17 Women’s National Football Championship"
+            const allp2 = ["This is a football,It's play eleven players.present,it is very popular", "It's price 500 tk"]
+            for (a = 0; a < allp2.length; a++) {
+                const creatp3 = document.createElement("p")
+                const add4 = addiv2.appendChild(creatp3).innerHTML = allp2[a]
+            }
+            const crtdiv = document.createElement("div")
+            const addcrt = getDiv.appendChild(crtdiv)
+            const creatimg3 = document.createElement("img")
+            const addim = addcrt.appendChild(creatimg3)
+            addim.setAttribute("src", "https://imgd.aeplcdn.com/1056x594/n/cw/ec/102895/rc-200-2021-right-front-three-quarter.jpeg?isig=0&q=75")
+            addim.setAttribute("width", "400")
+            addim.setAttribute("height", "300")
+            const creath3 = document.createElement("h3")
+            const addh3 = crtdiv.appendChild(creath3).innerHTML = "Images of KTM RC 200";
+            const bike = ["Watch 174 KTM RC 200 images to know how RC 200 really looks.", " Checkout RC 200 pictures in different angles and in great details"]
+            for (i = 0; i < bike.length; i++) {
+                const creatpp = document.createElement("p")
+                const addpp = crtdiv.appendChild(creatpp).innerHTML = bike[i]
+            }
+            const crtdiv3 = document.createElement("div")
+            const addiv3 = getDiv.appendChild(crtdiv3)
+            const creatimgbike = document.createElement("img")
+            const addbikeimg = addiv3.appendChild(creatimgbike)
+            addbikeimg.setAttribute("src", "https://ic1.maxabout.us/autos/tw_india//N/2022/2/new-yamaha-r15-v4-price-in-india-2-0.jpg")
+            addbikeimg.setAttribute("width", "400")
+            addbikeimg.setAttribute("height", "300")
+            const creatbikeh3 = document.createElement("h3")
+            const addbikeh3 = addiv3.appendChild(creatbikeh3).innerHTML = "Yamaha R15 V4"
+            const r15bike = ["The 150cc sports bike can accelerate from 0-100 kmph in 10.1 seconds.", "	Yamaha R15 V3 top speed is 145 kmph (approximate)."]
+            for (i = 0; i < r15bike.length; i++) {
+                const creatbikep = document.createElement("p")
+                const addbikep = addiv3.appendChild(creatbikep).innerHTML = r15bike[i]
+            }
+            const creatdv = document.createElement("div")
+            const addcreatd = getDiv.appendChild(creatdv)
+            const creatimg5 = document.createElement("img")
+            const addimg5 = addcreatd.appendChild(creatimg5)
+            creatimg5.setAttribute("src", "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro/MYD92/macbook-myd92-2-500x500.jpg")
+            creatimg5.setAttribute("width", "400")
+            creatimg5.setAttribute("height", "300")
+            const creath6 = document.createElement("h3")
+            const addh6 = addcreatd.appendChild(creath6).innerHTML = "Apple MacBook Pro 13.3-Inch Retina Display"
+            const mac = ["Processor: Apple M2 chip, 8-core CPU with 4 performance & 4 efficiency cores", "RAM: 8GB, Storage: 256GB SSD"]
+            for (i = 0; i < mac.length; i++) {
+                const creatannyp = document.createElement("p")
+                const addanyp = addcreatd.appendChild(creatannyp).innerHTML = mac[i]
+            }
+            const creatdv2 = document.createElement("div")
+            const addcreatd2 = getDiv.appendChild(creatdv2)
+            const creatimg6 = document.createElement("img")
+            const addimg6 = addcreatd2.appendChild(creatimg6)
+            creatimg6.setAttribute("src", "https://www.smartphonesbd.com/images/phones/xiaomi-12s-pro.jpg")
+            creatimg6.setAttribute("width", "400")
+            creatimg6.setAttribute("height", "300")
+            const creath7 = document.createElement("h3")
+            const addh7 = addcreatd2.appendChild(creath7).innerHTML = "Xiaomi 12S Pro price in bangladesh"
+            const mi = ["Fast Charging 120W, 100% in 19 min (advertised)", "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, Hotspot"]
+            for (i = 0; i < mac.length; i++) {
+                const creatannyp = document.createElement("p")
+                const addanyp = addcreatd2.appendChild(creatannyp).innerHTML = mi[i]
+            }
+            const creatdv3 = document.createElement("div")
+            const addcreatd3 = getDiv.appendChild(creatdv3)
+            const creatimg7 = document.createElement("img")
+            const addimg7 = addcreatd3.appendChild(creatimg7)
+            creatimg7.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1KMsJeUMW9xV2iACMn9Je2DvXjqek50vtkA&usqp=CAU")
+            creatimg7.setAttribute("width", "400")
+            creatimg7.setAttribute("height", "300")
+            const creath8 = document.createElement("h3")
+            const addh8 = addcreatd3.appendChild(creath8).innerHTML = "Gigabyte Aorus CV27F 27 Inch Gaming Monitor"
+            const Monitor = ["	Phys. Dimension with Stand(WxHxD). ", "Dimension w/o stand (WxHxD) W614*H369*D73.5mm Box Dimension",]
+            for (i = 0; i < mac.length; i++) {
+                const creatannyp = document.createElement("p")
+                const addanyp = addcreatd3.appendChild(creatannyp).innerHTML = Monitor[i]
+            }
+            const creatdibv4 = document.createElement("div")
+            const adddiv4 = getDiv.appendChild(creatdibv4)
+            const creatimg8 = document.createElement("img")
+            const addimg8 = adddiv4.appendChild(creatimg8)
+            addimg8.setAttribute("src", "https://www.hytera.com/iwov-resources/hytera/02_products/4_banner_image/catagory_satellite_banner.jpg")
+            addimg8.setAttribute("width", "400")
+            addimg8.setAttribute("height", "300")
+            const creath22 = document.createElement("h3")
+            const addh22 = adddiv4.appendChild(creath22).innerHTML = "Satellite Communication,Connect to Everywhere"
+            const parry = ["Audiovisual works, such as TV shows, movies, and online videos ", "Sound recordings and musical compositions"]
+            for (i = 0; i < parry.length; i++) {
+                const creatpt = document.createElement("p")
+                const addht = adddiv4.appendChild(creatpt).innerHTML = parry[i]
+            }
+            const creatdiv5 = document.createElement("div")
+            const addiv5 = getDiv.appendChild(creatdiv5)
+            const creatimg10 = document.createElement("img")
+            const addimg10 = addiv5.appendChild(creatimg10)
+            addimg10.setAttribute("src", "https://www.adobe.com/content/dam/cc/us/en/products/creativecloud/photography/hub/CODERED_B1_macro_hero-img_900x420.jpg.img.jpg")
+            addimg10.setAttribute("width", "400")
+            addimg10.setAttribute("height", "300")
+            const creath23 = document.createElement("h3")
+            const addh23 = addiv5.appendChild(creath23).innerHTML = "Discover the 5 best macro lens photography tips"
+            const ant = ["Let Lightroom do the work with presets for instant polish", " Adjust light and color with easy-to-use sliders and make."]
+            for (a = 0; a < ant.length; a++) {
+                const creatp = document.createElement("p")
+                const addp = addiv5.appendChild(creatp).innerHTML = ant[a]
+            }
+        }
+    </script>
+
+</body>
+
+</html>

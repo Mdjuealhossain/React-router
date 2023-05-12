@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .jueal {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+</style>
+
+<body>
+    <!---- web page-->
+    <div style="text-align: center;" id="sms"> jhgjnk</div>
+    <div id="jpn"></div>
+
+
+
+    <script>
+
+        const getd = document.getElementById("jpn").className = "jueal"
+
+        function imgpage(final) {
+
+            const getdiv = document.getElementById("jpn")
+            const creatdiv = document.createElement("div")
+            const getDiv = getdiv.appendChild(creatdiv)
+            const cxreatimg = document.createElement("img")
+            const addimg = getDiv.appendChild(cxreatimg)
+            addimg.setAttribute("src", final.src)
+            addimg.setAttribute("width", "400")
+            addimg.setAttribute("height", "300")
+            const creath2 = document.createElement("h3")
+            const addhh3 = getDiv.appendChild(creath2).innerHTML = final.headding
+            const creatp3 = document.createElement("p")
+            const add4 = getDiv.appendChild(creatp3).innerHTML = final.text
+
+        }
+
+        const football = {
+            src: "https://staticg.sportskeeda.com/wp-content/uploads/2013/06/stock-1745820-1024x682.jpg",
+            headding: "U-17 Women’s National Football Championship",
+            text: "This is a football,It's play eleven players.present,it is very popular"
+        }
+        const academy = {
+            src: "https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg",
+            headding: "IMAGE ACADEMY FIRST",
+            text: "This senarry is very beauttiful"
+        }
+        const ktmbike = {
+            src: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/102895/rc-200-2021-right-front-three-quarter.jpeg?isig=0&q=75",
+            headding: " Images of KTM RC 200",
+            text: "Watch 174 KTM RC 200 images to know how RC 200 really looks."
+        }
+        const r15bike = {
+            src: "https://ic1.maxabout.us/autos/tw_india//N/2022/2/new-yamaha-r15-v4-price-in-india-2-0.jpg",
+            headding: "Yamaha R15 V4",
+            text: "The 150cc sports bike can accelerate from 0-100 kmph in 10.1 seconds."
+        }
+        const macbook = {
+            src: "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro/MYD92/macbook-myd92-2-500x500.jpg",
+            headding: "Apple MacBook Pro 13.3-Inch Retina Display",
+            text: " Apple M2 chip, 8-core CPU with 4 performance & 4 efficiency cores"
+        }
+        const Xiaomi = {
+            src: "https://www.smartphonesbd.com/images/phones/xiaomi-12s-pro.jpg",
+            headding: "Xiaomi 12S Pro price in bangladesh",
+            text: "Fast Charging 120W, 100% in 19 min (advertised)"
+        }
+        const monitor = {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1KMsJeUMW9xV2iACMn9Je2DvXjqek50vtkA&usqp=CAU",
+            headding: "Gigabyte Aorus CV27F 27 Inch Gaming Monitor",
+            text: "Dimension w/o stand (WxHxD) W614*H369*D73.5mm Box Dimension"
+        }
+        const setelite = {
+            src: "https://www.hytera.com/iwov-resources/hytera/02_products/4_banner_image/catagory_satellite_banner.jpg",
+            headding: "Satellite Communication,Connect to Everywhere",
+            text: "Audiovisual works, such as TV shows, movies, and online videos "
+        }
+        const photography = {
+            src: "https://www.adobe.com/content/dam/cc/us/en/products/creativecloud/photography/hub/CODERED_B1_macro_hero-img_900x420.jpg.img.jpg",
+            headding: "Discover the 5 best macro lens photography tips",
+            text: "Let Lightroom do the work with presets for instant polish"
+        }
+        const imgarry = [football, academy, ktmbike, r15bike, macbook, Xiaomi, monitor, setelite, photography]
+        window.onload = function final() {
+            const getd1 = document.getElementById("sms")
+            const creath = document.createElement("h2")
+            const addh = getd1.appendChild(creath)
+            const inn = addh.innerHTML = "This is my first web page"
+            const creath5 = document.createElement("h4")
+            const addh5 = getd1.appendChild(creath5).innerHTML = "Home >> page"
+            for (a = 0; a < imgarry.length; a++) {
+                let final = imgpage(imgarry[a])
+
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
